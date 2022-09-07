@@ -50,7 +50,7 @@
 }
 
 .regoinput {
-    width: 38%;
+    width: 450px;
     position: absolute;
     top: 420px;
     left: 120px;
@@ -75,17 +75,17 @@
     border-radius: 30px;
     height: 75px;
     position: absolute;
-    padding: 0 30px;
+    padding: 0 35px;
     top: 420px;
-    left: 645px;
+    left: 630px;
 }
 
 .insurancelink {
     font-family: 'Baloo Thambi 2';
     position: absolute;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 800;
-    top: 550px;
+    top: 600px;
     left: 200px;
     text-decoration: underline;
 }
@@ -94,6 +94,6 @@
     cursor: pointer;
 }
 
-.insurancelink:hover  {
+.regosubmitbtn:hover  {
     cursor: pointer;
 }

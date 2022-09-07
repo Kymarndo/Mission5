@@ -6,6 +6,7 @@
     background: linear-gradient(180deg, white 55%, #286dbd 55%);
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 .navUpper {
