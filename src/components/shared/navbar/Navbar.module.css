@@ -31,6 +31,7 @@
 
 .navUpperRightIcon {
     height: 24px;
+    width: 24px;
     position: absolute;
     left: -25%;
     top: 15%;
@@ -40,7 +41,7 @@
     align-items: center;
 }
 
-ul {
+.navlinks {
     display: flex;
     flex-direction: row;
     list-style: none;

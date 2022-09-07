@@ -3,8 +3,8 @@ import image from "./photo-1534708112740-cb40ecb0663e.jpg"
 
 export default function RegoSearch() {
     return (
-        <div>
-            <img src={image} alt="" />
+        <div style={{padding:'140px 0 0 0'}}>
+            <img src={image} alt="" className={regoSearchStyles.bgimg}/>
             <div className={regoSearchStyles.infoside}>
                 <>
                     <p className={regoSearchStyles.title1}>Car Insurance</p>

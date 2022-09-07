@@ -1,4 +1,5 @@
 import navbarStyles from "./Navbar.module.css"
+import phone from "./12-124573_graphic-library-stock-icons-transparent-png-images-transparent.png"
 
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 /* Link component replaces a(anchor) tags, then href
@@ -11,13 +12,13 @@ export default function Navbar() {
                 <Link to="/"><img src="https://www.turners.co.nz/contentassets/3e15c8546917474ca0a150b18e9fd64e/turnerscars_logo_1line_horz_true-rgb-desktop.png"
                     alt="" className={navbarStyles.navUpperLeft} /></Link>
                 <div className={navbarStyles.navUpperRight}>
-                    <img src="https://www.seekpng.com/png/full/12-124573_graphic-library-stock-icons-transparent-png-images-transparent.png" alt="" className={navbarStyles.navUpperRightIcon} />
+                    <img src={phone} alt="" className={navbarStyles.navUpperRightIcon} />
                     0800 887 637
                 </div>
 
             </nav>
             <nav className={navbarStyles.navLower}>
-                <ul>
+                <ul className={navbarStyles.navlinks}>
                 <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600', marginRight: '30px'}} to="/Insurance">Insurance
                  <img src="https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png" className={navbarStyles.insuranceArrow}/></CustomLink>
                 <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600'}} to="/Finance">Finance</CustomLink>
