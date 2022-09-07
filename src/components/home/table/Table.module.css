@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap');
+
+#table{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-family: "Baloo Thambi 2";
+    padding: 40px 0;
+}
+
+#tableContainer{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 20px 20px rgb(235, 235, 235);
+}
+
+#title{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 60px;
+    z-index: 3;
+}
+#tableTitles{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.showMore:hover{
+    cursor: pointer;
+}
+
+#learn{
+    width: 80%;
+    line-height: 2.5em;
+}
+#learn:hover{
+    color: #286dbd;
+    cursor: pointer;
+}
+
+.sectionContainer{
+    display: flex;
+    width: 100%;
+    min-height: 4em;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.infoSection, .tppd, .comp, .tpft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+.infoSection{
+    width: 35%;
+    justify-content: space-between;
+}
+.info{
+    width: 60%;
+}
+.secondary{
+    font-size: 12px;
+}
+.tppd{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    font-size: 30px;
+}
+.comp{
+    font-size: 30px;
+    width: 25%;
+    background-color: #dbe6f4;
+}
+.tpft{
+    font-size: 30px;
+    width: 20%;
+    rotate: 90;
+}
