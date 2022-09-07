@@ -6,20 +6,21 @@
     width: 100%;
     align-items: center;
     font-family: "Baloo Thambi 2";
-    padding-bottom: 20px;
+    padding: 40px 0;
 }
 
 #tableContainer{
     width: 55%;
     display: flex;
     flex-direction: column;
-    box-shadow: 10px 10px 15px rgb(230, 230, 230);
+    box-shadow: 10px 20px 20px rgb(235, 235, 235);
 }
 
 #title{
     font-size: 30px;
     font-weight: 800;
     padding-bottom: 60px;
+    z-index: 3;
 }
 #tableTitles{
     display: flex;
@@ -33,6 +34,7 @@
 
 #learn{
     width: 80%;
+    line-height: 2.5em;
 }
 #learn:hover{
     color: #286dbd;
