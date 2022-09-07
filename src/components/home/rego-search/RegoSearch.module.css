@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap');
 
-img {
+.bgimg {
     width: 100%;
     z-index: 0;
 }
@@ -9,20 +10,20 @@ img {
     flex-direction: column;
     position:absolute;
     width: 60%;
-    top: 150px;
+    top: 240px;
     right: 0px;
     z-index: 1;
 }
 
 .title1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Baloo Thambi 2';
     font-weight: 600;
     font-size: 55px;
     margin: 0;
 }   
 
 .subtitle1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Baloo Thambi 2';
     font-weight: 600;
     font-size: 32px;
     margin: 5px 0;
@@ -44,6 +45,7 @@ img {
 .overlayinfo {
     margin: 0px 120px;
     font-size: 35px;
+    font-family: 'Baloo Thambi 2';
 
 }
 
@@ -60,8 +62,8 @@ img {
 
 .regoinput::placeholder {
     font-size: 25px;
-    font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-family: 'Baloo Thambi 2';
 }
 
 .regosubmitbtn {
@@ -69,7 +71,7 @@ img {
     color: white;
     font-size: 25px;
     font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Baloo Thambi 2';
     border-radius: 30px;
     height: 75px;
     position: absolute;
@@ -79,10 +81,10 @@ img {
 }
 
 .insurancelink {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Baloo Thambi 2';
     position: absolute;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 800;
     top: 550px;
     left: 200px;
     text-decoration: underline;
