@@ -1,0 +1,64 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    font-size: larger;
+    background: linear-gradient(180deg, white 55%, #286dbd 55%);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navUpper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navUpperLeft {
+    position: relative;
+    top: 8%;
+    left: 15%;
+    scale: 1.20;
+}
+
+.navUpperRight {
+    font-weight: 800;
+    position: absolute;
+    right: 5%;
+    top: 23%;
+
+}
+
+.navUpperRightIcon {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: -25%;
+    top: 15%;
+}
+
+.navLower{
+    align-items: center;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 72%;
+    font-family: sans-serif;
+    padding-bottom:4px;
+    font-size: 18px;
+
+}
+
+.insuranceArrow {
+    height: 20px;
+    width: 13px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 2px;
+}
