@@ -26,13 +26,13 @@ export default function Section({ sect }) {
         </div>
         {sect.special ? (
           <>
-            <div className={styles.tppd} style={{ "font-size": "20px" }}>
+            <div className={styles.tppd} style={{ "fontSize": "20px" }}>
               {sect.tppd}
             </div>
-            <div className={styles.comp} style={{ "font-size": "20px" }}>
+            <div className={styles.comp} style={{ "fontSize": "20px" }}>
               {sect.comp}
             </div>
-            <div className={styles.tpft} style={{ "font-size": "20px" }}>
+            <div className={styles.tpft} style={{ "fontSize": "20px" }}>
               {sect.tpft}
             </div>
           </>
@@ -43,7 +43,7 @@ export default function Section({ sect }) {
               style={
                 sect.tppd
                   ? { color: "#286dbd" }
-                  : { color: "#d9d9d9", "font-size": "20px" }
+                  : { color: "#d9d9d9", "fontSize": "20px" }
               }
             >
               {sect.tppd ? (
@@ -57,7 +57,7 @@ export default function Section({ sect }) {
               style={
                 sect.comp
                   ? { color: "#286dbd" }
-                  : { color: "#d9d9d9", "font-size": "20px" }
+                  : { color: "#d9d9d9", "fontSize": "20px" }
               }
             >
               {sect.comp ? (
@@ -73,8 +73,8 @@ export default function Section({ sect }) {
                   ? { color: "#286dbd" }
                   : {
                       color: "#d9d9d9",
-                      "font-size": "20px",
-                      "font-weight": "900",
+                      "fontSize": "20px",
+                      "fontWeight": "900",
                     }
               }
             >

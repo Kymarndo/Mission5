@@ -8,16 +8,14 @@ export default function Table() {
       <div id={styles.title}>Coverage at a glance</div>
       <div id={styles.tableContainer}>
         <div id={styles.tableTitles}>
-          <div
-            className={styles.infoSection}
-          ></div>
-          <div className={styles.tppd} style={{ "font-size": "20px" }}>
+          <div className={styles.infoSection}></div>
+          <div className={styles.tppd} style={{ fontSize: "20px" }}>
             <span style={{ width: "80%" }}>Third party property damage</span>
           </div>
-          <div className={styles.comp} style={{ "font-size": "20px" }}>
+          <div className={styles.comp} style={{ fontSize: "20px" }}>
             <span style={{ width: "80%" }}>Comprehensive Plus</span>
           </div>
-          <div className={styles.tpft} style={{ "font-size": "20px" }}>
+          <div className={styles.tpft} style={{ fontSize: "20px" }}>
             <span style={{ width: "80%" }}>Third Party Fire & Theft</span>
           </div>
         </div>
@@ -27,25 +25,25 @@ export default function Table() {
         <div id={styles.tableTitles}>
           <div
             className={styles.infoSection}
-            style={{ "font-size": "20px" }}
+            style={{ fontSize: "20px" }}
           ></div>
           <div
             className={styles.tppd}
-            style={{ "font-size": "20px", color: "#5b5b5b" }}
+            style={{ fontSize: "20px", color: "#5b5b5b" }}
           >
-            <span style={{ width: "80%" }}>Learn more</span>
+            <span id={styles.learn}>Learn more</span>
           </div>
           <div
             className={styles.comp}
-            style={{ "font-size": "20px", color: "#5b5b5b" }}
+            style={{ fontSize: "20px", color: "#5b5b5b" }}
           >
-            <span style={{ width: "80%" }}>Learn more</span>
+            <span id={styles.learn}>Learn more</span>
           </div>
           <div
             className={styles.tpft}
-            style={{ "font-size": "20px", color: "#5b5b5b" }}
+            style={{ fontSize: "20px", color: "#5b5b5b" }}
           >
-            <span style={{ width: "80%" }}>Learn more</span>
+            <span id={styles.learn}>Learn more</span>
           </div>
         </div>
       </div>

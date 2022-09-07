@@ -27,7 +27,17 @@
     text-align: center;
 }
 
+.showMore:hover{
+    cursor: pointer;
+}
 
+#learn{
+    width: 80%;
+}
+#learn:hover{
+    color: #286dbd;
+    cursor: pointer;
+}
 
 .sectionContainer{
     display: flex;
