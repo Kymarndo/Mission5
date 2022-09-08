@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap');
+
+.bgimg {
+    width: 100%;
+    z-index: 0;
+}
+
+.infoside {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    width: 60%;
+    top: 240px;
+    right: 0px;
+    z-index: 1;
+}
+
+.title1 {
+    font-family: 'Baloo Thambi 2';
+    font-weight: 600;
+    font-size: 55px;
+    margin: 0;
+}   
+
+.subtitle1 {
+    font-family: 'Baloo Thambi 2';
+    font-weight: 600;
+    font-size: 32px;
+    margin: 5px 0;
+}   
+
+.infosection {
+   background: rgba(255, 255, 255, 0.574);
+   position: absolute;
+   width: 100%;
+   top: 220px;
+   border-radius: 30px;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+   height: 453px;
+   padding-top: 70px;
+
+}
+
+.overlayinfo {
+    margin: 0px 120px;
+    font-size: 35px;
+    font-family: 'Baloo Thambi 2';
+
+}
+
+.regoinput {
+    width: 450px;
+    position: absolute;
+    top: 420px;
+    left: 120px;
+    height: 70px;
+    border-radius: 30px;
+    padding: 0 80px;
+    font-size: 25px;
+}
+
+.regoinput::placeholder {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Baloo Thambi 2';
+}
+
+.regosubmitbtn {
+    background: #286dbd;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Baloo Thambi 2';
+    border-radius: 30px;
+    height: 75px;
+    position: absolute;
+    padding: 0 35px;
+    top: 420px;
+    left: 630px;
+}
+
+.insurancelink {
+    font-family: 'Baloo Thambi 2';
+    position: absolute;
+    font-size: 30px;
+    font-weight: 800;
+    top: 600px;
+    left: 200px;
+    text-decoration: underline;
+}
+
+.insurancelink:hover  {
+    cursor: pointer;
+}
+
+.regosubmitbtn:hover  {
+    cursor: pointer;
+}

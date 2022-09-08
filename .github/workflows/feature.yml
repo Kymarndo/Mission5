@@ -6,7 +6,7 @@ name: Testing Feature Branches
 env:
   CI: false
 jobs:
-  build_and_deploy:
+  feature_testing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
