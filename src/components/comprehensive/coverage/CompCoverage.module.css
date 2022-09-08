@@ -19,17 +19,18 @@
 
 .title{
     font-family: 'Baloo Thambi 2';
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .info{
     font-family: 'Roboto';
     padding: 20px 0;
     line-height: 2em;
+    font-size: 20px;
 }
 
 #right{

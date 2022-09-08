@@ -12,12 +12,12 @@
     justify-content: center;
     font-family: 'Baloo Thambi 2';
     font-weight: 800;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 #left{
     width: 25%;
-    font-size: 34px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -29,17 +29,26 @@
 }
 
 #button{
-    width: 60%;
+    width: 70%;
     background-color:#286dbd ;
     color: white;
     padding: 9px 0;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     border-radius: 20px;
+    border: #286dbd solid 2px;
+}
+
+#button:hover{
+    background-color: #d9d9d9;
+    color: black;
+    cursor: pointer;
 }
 
 #back{
+    text-decoration: none;
     font-family: 'Roboto';
-    padding: 50px 0 20px 100px;
+    font-size: 20px;
+    padding: 50px 0 50px 200px;
     color: #286dbd;
 }

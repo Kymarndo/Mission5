@@ -1,4 +1,5 @@
 import styles from './CompInstant.module.css'
+import { Link } from 'react-router-dom';
 
 export default function CompInstant() {
   return (
@@ -9,7 +10,11 @@ export default function CompInstant() {
           <div id={styles.button}>Start my quote</div>
         </div>
       </div>
-      <div id={styles.back}>{`<< Back to Insurance Overview`}</div>
+      <div id={styles.back}>
+        <Link to="/">
+          <span style={{ textDecoration:'none'}}>{`<< Back to Insurance Overview`}</span>
+        </Link>
+      </div>
     </div>
   );
 }
