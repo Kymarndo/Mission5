@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+#outerContainer{
+    padding-top: 80px;
+}
+
+#innerContainer{
+    background-color: #dbe6f4;
+    display: flex;
+    justify-content: center;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 35%;
+}
+
+.title{
+    font-family: 'Baloo Thambi 2';
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.info{
+    font-family: 'Roboto';
+    padding: 20px 0;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    width: 20%;
+
+    /* padding-right: 100px; */
+}
+
+#image{
+    width: 100%;
+
+}
