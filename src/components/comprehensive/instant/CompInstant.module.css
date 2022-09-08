@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: #dbe6f4;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Thambi 2';
+    font-weight: 800;
+    padding-top: 80px;
+}
+
+#left{
+    width: 25%;
+    font-size: 34px;
+    text-align: center;
+}
+
+#right{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+    width: 60%;
+    background-color:#286dbd ;
+    color: white;
+    padding: 9px 0;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#back{
+    font-family: 'Roboto';
+    padding: 50px 0 20px 100px;
+    color: #286dbd;
+}
