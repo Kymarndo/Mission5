@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap');
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -39,7 +41,7 @@
 }
 
 .navLower{
-    align-items: center;
+    align-items:center;
 }
 
 .navlinks {
@@ -47,18 +49,25 @@
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
-    margin-top: 2rem;
     width: 72%;
-    font-family: sans-serif;
-    padding-bottom:4px;
-    font-size: 18px;
-
+    font-family: 'Baloo Thambi 2';
+    padding-bottom: 6px;
+    position: relative;
+    top: 8px;
+    text-align: center;
 }
 
 .insuranceArrow {
     height: 20px;
     width: 13px;
     position: absolute;
-    margin-top: 4px;
-    margin-left: 2px;
+    margin-top: 8px;
+    margin-left: 3px;
 }
+
+.navlinks li:hover {
+    background: rgba(255, 255, 255, 0.499);
+    border-radius: 8px;
+    
+}
+

@@ -21,10 +21,10 @@ export default function Navbar() {
                 <ul className={navbarStyles.navlinks}>
                 <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600', marginRight: '30px'}} to="/">Insurance
                  <img src="https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png" className={navbarStyles.insuranceArrow}/></CustomLink>
-                <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600'}} to="/Finance">Finance</CustomLink>
-                <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600'}} to="/Find-a-Car">Find a Car</CustomLink>
-                <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600'}} to="/Sell-your-car">Sell Your Car</CustomLink>
-                <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600'}} to="/Turners-Subscription">Turners Subscription</CustomLink>
+                <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600' ,padding: '0 10px'}} to="/Finance">Finance</CustomLink>
+                <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600',padding: '0 10px'}} to="/Find-a-Car">Find a Car</CustomLink>
+                <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600',padding: '0 10px'}} to="/Sell-your-car">Sell Your Car</CustomLink>
+                <CustomLink style={{textDecoration: 'none', color: 'white', fontWeight: '600',padding: '0 10px'}} to="/Turners-Subscription">Turners Subscription</CustomLink>
                 </ul>
                
             </nav>
