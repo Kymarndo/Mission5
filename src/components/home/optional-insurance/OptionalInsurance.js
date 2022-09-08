@@ -15,7 +15,9 @@ export default function OptionalInsurance() {
           didn’t buy it at Turners.
         </div>
         <div id={styles.innerContainer}>
-          <div className={styles.subTitles} style={{paddingTop:'30px'}}>Consumable Item</div>
+          <div className={styles.subTitles} style={{ paddingTop: "30px" }}>
+            Consumable Item
+          </div>
           <div className={styles.subTitles}>Repatriation Costs</div>
           <div className={styles.subTitles}>
             Accommodation and Return Home Travel
@@ -44,6 +46,17 @@ export default function OptionalInsurance() {
             <FontAwesomeIcon icon={faCheck} />
           </div>
         </div>
+      </div>
+      <div id={styles.learnMore}>
+        Want to learn more? Visit{"  "}
+        <span style={{ color: "#286dbd" }}>
+          Mechanical Breakdown Insurance page
+        </span>
+      </div>
+      <div id={styles.quoteCall}>
+        <div id={styles.quote}>Get a Free Quote Now</div>
+        <div id={styles.or}>OR</div>
+        <div id={styles.call}>Book a Call</div>
       </div>
     </div>
   );
