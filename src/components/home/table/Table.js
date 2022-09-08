@@ -1,6 +1,7 @@
 import styles from "./Table.module.css";
 import Section from "./Section";
 import { Data } from "./Tableinfo";
+import { Link } from "react-router-dom";
 
 export default function Table() {
   return (
@@ -31,7 +32,9 @@ export default function Table() {
             className={styles.tppd}
             style={{ fontSize: "20px", color: "#5b5b5b" }}
           >
-            <span id={styles.learn}>Learn more</span>
+            <span id={styles.learn}>
+              <Link to="/comprehensive">Learn more</Link>
+            </span>
           </div>
           <div
             className={styles.comp}
